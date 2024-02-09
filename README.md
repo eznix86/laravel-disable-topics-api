@@ -1,7 +1,7 @@
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
 
-# Automatically disable Google's FLoC in Laravel apps
+# Automatically disable Google's Topics API in Laravel apps
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-disable-floc.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-disable-floc)
 [![run-tests](https://github.com/spatie/laravel-disable-floc/actions/workflows/run-tests.yml/badge.svg)](https://github.com/spatie/laravel-disable-floc/actions/workflows/run-tests.yml)
@@ -23,7 +23,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-disable-floc
+composer require spatie/laravel-disable-topics-api
 ```
 
 ## Usage

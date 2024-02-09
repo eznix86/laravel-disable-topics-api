@@ -1,22 +1,22 @@
 <?php
 
-namespace Spatie\DisableFloc\Tests;
+namespace Spatie\DisableTopicsApi\Tests;
 
 use Illuminate\Support\Facades\Route;
-use Spatie\DisableFloc\DisableFloc;
+use Spatie\DisableTopicsApi\DisableTopicsApi;
 
-class DisableFlocTest extends TestCase
+class DisableTopicsApiTest extends TestCase
 {
     /** @test */
     public function it_will_add_the_floc_header()
     {
         Route::get('test', function () {
             return 'Computer says no, Google';
-        })->middleware(DisableFloc::class);
+        })->middleware(DisableTopicsApi::class);
 
         $this
             ->get('test')
             ->assertSuccessful()
-            ->assertHeader('Permissions-Policy', 'interest-cohort=()');
+            ->assertHeader('Permissions-Policy', 'browsing-topics=()');
     }
 }

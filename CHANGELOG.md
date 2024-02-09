@@ -1,6 +1,10 @@
 # Changelog
 
-All notable changes to `laravel-disable-floc` will be documented in this file.
+All notable changes to `laravel-disable-topics-api` will be documented in this file.
+
+## 2.0.0 - 2024-02-09
+
+- Change Cohort to Topics API
 
 ## 1.0.2 - 2022-02-01
 

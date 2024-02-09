@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\DisableFloc;
+namespace Spatie\DisableTopicsApi;
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 
-class DisableFlocServiceProvider extends ServiceProvider
+class DisableDisableTopicsApiServiceProvider extends ServiceProvider
 {
     public function boot()
     {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\DisableFloc;
+namespace Spatie\DisableTopicsApi;
 
 use Closure;
 use Illuminate\Http\Response;
 
-class DisableFloc
+class DisableTopicsApi
 {
     public function handle($request, Closure $next)
     {

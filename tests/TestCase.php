@@ -3,14 +3,14 @@
 namespace Spatie\DisableFloc\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\DisableFloc\DisableFlocServiceProvider;
+use Spatie\DisableFloc\DisableTopicsApiServiceProvider;
 
 class TestCase extends Orchestra
 {
     protected function getPackageProviders($app)
     {
         return [
-            DisableFlocServiceProvider::class,
+            DisableTopicsApiServiceProvider::class,
         ];
     }
 

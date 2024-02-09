@@ -6,12 +6,17 @@
         "laravel",
         "laravel-disable-floc"
     ],
-    "homepage": "https://github.com/spatie/laravel-disable-floc",
+    "homepage": "https://github.com/spatie/laravel-topics-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Bruno Bernard",
+            "email": "contact.brunobernard@gmail.com",
             "role": "Developer"
         }
     ],
@@ -44,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\DisableFloc\\DisableFlocServiceProvider"
+                "Spatie\\DisableTopicsApi\\DisableTopicsApiServiceProvider"
             ]
         }
     },
