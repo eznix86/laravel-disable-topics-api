@@ -13,7 +13,7 @@ class DisableFloc
 
         if ($response instanceof Response) {
             if (! $response->headers->has('Permissions-Policy')) {
-                $response->header('Permissions-Policy', 'interest-cohort=()');
+                $response->header('Permissions-Policy', 'browsing-topics=()');
             }
         }
 
